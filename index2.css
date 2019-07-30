@@ -142,3 +142,8 @@ h1 {
 h4{text-align: center;
 text-decoration: underline;
 color: green;}
+
+.a{display: block;
+  margin-right: auto;
+  margin-left: auto;
+}

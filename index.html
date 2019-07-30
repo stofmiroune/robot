@@ -6,25 +6,38 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-	<h1>Robot Friend</h1>
-	<div class="robots">
+	<h1>Mat9isniich</h1>
+
+		<div class="robots">
 		<div class="android">
-			<div class="head">
+			<div class="head" onclick="playAudio()"  name="x">
 				<div class="eyes">
 					<div class="left_eye"></div>
 					<div class="right_eye"></div>
 				</div>
 			</div>
 			<div class="upper_body">
-				<div class="left_arm"></div>
-				<div class="torso"></div>
-				<div class="right_arm"></div>
+				<div class="left_arm" name="x"></div>
+				<div class="torso" name="x"></div>
+				<div class="right_arm" name="x"></div>
 			</div>
 			<div class="lower_body">
-				<div class="left_leg"></div>
-				<div class="right_leg"></div>
+				<div class="left_leg" name="x"></div>
+				<div class="right_leg" name="x"></div>
 			</div>
 		</div>
 	</div>
+
+	<h1> Background color </h1>
+  <input   type="color" value="#0000ff" class="a">
+
+	<audio id="audio">
+		<source  src="soso.mp3" type="audio/mpeg">
+
+	Your browser does not support the audio element.
+</audio>
+	<script type="text/javascript" src="Back.js"></script>
+
 </body>
+
 </html>
